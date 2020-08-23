@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "devStart": "nodemon server.js",
+    "dbStart": "brew services run mongodb-community",
+    "dbStop": "brew services stop mongodb-community",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

@@ -20,7 +20,7 @@ app.get('/', async (req, res) => {
     createdAt: 'desc'
   })
   res.render('articles/index', {articles: articles})
-});
+})
 
 app.use('/articles', articleRouter)
 
